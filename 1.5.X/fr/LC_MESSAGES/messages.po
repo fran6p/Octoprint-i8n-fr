@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OctoPrint 1.5.2.post0.dev0+ge46e8fa17\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
 "POT-Creation-Date: 2020-12-12 09:49+0000\n"
-"PO-Revision-Date: 2020-12-13 09:36+0100\n"
+"PO-Revision-Date: 2020-12-13 09:55+0100\n"
 "Last-Translator: Francis Poulizac <fpoulizac@gmail.com>\n"
 "Language: fr\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -6970,7 +6970,7 @@ msgid ""
 "the printer in case of <em>fatal</em> errors reported by your firmware (e.g. "
 "<code>kill() called</code>, <code>fatal:</code>)."
 msgstr ""
-"Noter que si vous choisissez cette option, OctoPrint se déconnectera tout de "
+"Notez que si vous choisissez cette option, OctoPrint se déconnectera tout de "
 "même de l'imprimante en cas d'erreurs fatales signalées par le firmware (par "
 "exemple, <code>kill () called</code>, <code>fatal:</code>)."
 
@@ -8313,7 +8313,7 @@ msgstr "Vitesse d'alimentation :"
 #: src/octoprint/templates/tabs/control.jinja2:116
 #: src/octoprint/templates/tabs/control.jinja2:121
 msgid "Please note!"
-msgstr "Veuillez noter !"
+msgstr "A noter!"
 
 #: src/octoprint/templates/tabs/control.jinja2:88
 msgid ""
@@ -8335,7 +8335,7 @@ msgstr "Rétracter"
 
 #: src/octoprint/templates/tabs/control.jinja2:109
 msgid "Switch Tool..."
-msgstr "Changer d'outil.."
+msgstr "Changer d\\'outil.."
 
 #: src/octoprint/templates/tabs/control.jinja2:116
 msgid ""
@@ -8343,9 +8343,9 @@ msgid ""
 "due to a limitation of the communication protocol. There is no way to show "
 "the current setting."
 msgstr ""
-"L'outil sélectionné ne peut être réglé, il ne peut être récupéré du firmware "
-"en raison d'une limitation du protocole de communication. Il n'y a aucun "
-"moyen de montrer le réglage actuel."
+"L\\'outil sélectionné ne peut être réglé, il ne peut être récupéré du "
+"firmware en raison d\\'une limitation du protocole de communication. Il n"
+"\\'y a aucun moyen de montrer le réglage actuel."
 
 #: src/octoprint/templates/tabs/control.jinja2:121
 msgid "Flow rate modifier:"
