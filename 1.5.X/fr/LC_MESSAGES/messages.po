@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OctoPrint 1.5.2.post0.dev0+ge46e8fa17\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
 "POT-Creation-Date: 2020-12-12 09:49+0000\n"
-"PO-Revision-Date: 2020-12-13 09:55+0100\n"
+"PO-Revision-Date: 2020-12-13 10:07+0100\n"
 "Last-Translator: Francis Poulizac <fpoulizac@gmail.com>\n"
 "Language: fr\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -2988,7 +2988,7 @@ msgstr "pip"
 
 #: src/octoprint/plugins/softwareupdate/__init__.py:990
 msgid "setuptools"
-msgstr "outils de configuration"
+msgstr ""
 
 #: src/octoprint/plugins/softwareupdate/__init__.py:1208
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_wizard.jinja2:1
