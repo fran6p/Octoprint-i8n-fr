@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OctoPrint 1.5.2.post0.dev0+ge46e8fa17\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
 "POT-Creation-Date: 2020-12-12 09:49+0000\n"
-"PO-Revision-Date: 2020-12-13 10:07+0100\n"
+"PO-Revision-Date: 2020-12-13 11:37+0100\n"
 "Last-Translator: Francis Poulizac <fpoulizac@gmail.com>\n"
 "Language: fr\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -1944,8 +1944,8 @@ msgstr "Ajouter"
 #: src/octoprint/plugins/pi_support/__init__.py:243
 msgid "Allows to check for the Pi's throttling status and environment info"
 msgstr ""
-"Autorise la vérification de l'état des restriction du RPi et des "
-"informations d'environnement"
+"Autorise la vérification de l'état des restrictions et des informations "
+"d'environnement du RPi"
 
 #: src/octoprint/plugins/pi_support/__init__.py:295
 #: src/octoprint/plugins/pi_support/templates/pi_support_settings.jinja2:1
@@ -1958,7 +1958,7 @@ msgid ""
 "information about your Pi, which will make it more tricky to help you if you "
 "need support."
 msgstr ""
-"Sans ce plugin, OctoPrint ne pourra plus fournir d'informations "
+"Sans cette extension, OctoPrint ne pourra plus fournir d'informations "
 "supplémentaires sur votre Pi, ce qui rendra plus délicate la tâche de vous "
 "aider si vous avez besoin de soutien."
 
@@ -1984,7 +1984,7 @@ msgid ""
 "unsupported hardware"
 msgstr ""
 "Vous pouvez désactiver ce message via Paramètres > Support Pi > Ignorer "
-"l'avertissementde matériel non pris en charge"
+"l'avertissement de matériel non pris en charge"
 
 #: src/octoprint/plugins/pi_support/static/js/pi_support.js:50
 msgid "Unsupported hardware detected"
@@ -1999,7 +1999,7 @@ msgid ""
 "Undervoltage. Make sure your power supply and cabling are providing enough "
 "power to the Pi."
 msgstr ""
-"Sous-tension. Assurez-vous que votre alimentation et votre câblage "
+"Sous-tension. Assurez-vous que le bloc d'alimentation et le câble USB "
 "fournissent suffisamment d’alimentation au Pi."
 
 #: src/octoprint/plugins/pi_support/static/js/pi_support.js:133
@@ -2014,7 +2014,7 @@ msgid ""
 "A blinking symbol indicates a current issue, a non blinking symbol one that "
 "was observed some time since the Pi booted up."
 msgstr ""
-"Un symbole clignotant indique un problème en cours. Un symbole fixe pour un "
+"Un symbole clignotant indique un problème en cours. Un symbole fixe un "
 "problème détecté auparavant."
 
 #: src/octoprint/plugins/pi_support/static/js/pi_support.js:143
@@ -2041,14 +2041,12 @@ msgstr "Surchauffe"
 #: src/octoprint/plugins/pi_support/templates/pi_support_settings.jinja2:3
 msgid "Please restart OctoPrint after changing any of this plugin's settings."
 msgstr ""
-"Veuillez redémarrer OctoPrint après avoir modifié les paramètres des "
-"extensions."
+"Veuillez redémarrer OctoPrint après avoir modifié les paramètres de cette "
+"extension."
 
 #: src/octoprint/plugins/pi_support/templates/pi_support_settings.jinja2:9
 msgid "Disable warning about unsupported hardware"
-msgstr ""
-"Activer la détection de sous-tension et de surchauffe via <code>vcgencmd "
-"get_throttled</code>"
+msgstr "Désactiver l'avertissement concernant le matériel non pris en charge"
 
 #: src/octoprint/plugins/pi_support/templates/pi_support_settings.jinja2:11
 msgid ""
@@ -2057,9 +2055,9 @@ msgid ""
 "that can lead to failed prints. Do so at your own risk."
 msgstr ""
 "En cochant cette case, vous ne serez plus averti si vous utilisez OctoPrint "
-"sur des modèles Pi qui ne sont pas officiellement soutenus en raison de "
-"leurs mauvaises performances pouvant mener à des impressions ratées. Faites-"
-"le à vos propres risques."
+"sur des modèles Pi non officiellement soutenus en raison de leurs mauvaises "
+"performances pouvant mener à des impressions ratées. Faites-le à vos propres "
+"risques."
 
 #: src/octoprint/plugins/pi_support/templates/pi_support_settings.jinja2:18
 msgid ""
@@ -2074,13 +2072,13 @@ msgid ""
 "This will regularly check with the Pi if something is amiss either with "
 "power regulation or CPU/GPU temperature."
 msgstr ""
-"Permettre de vérifier régulièrement sur le RPi si quelque chose ne va pas, "
-"soit au niveau de la régulation de puissance, soit au niveau de la "
-"température CPU/GPU."
+"Autorise la vérification régulière sur le RPi de problèmes potentiels, soit "
+"au niveau de la régulation de puissance, soit au niveau de la température "
+"CPU/GPU."
 
 #: src/octoprint/plugins/pi_support/templates/pi_support_settings.jinja2:29
 msgid "Command for under voltage/overheat detection"
-msgstr "Commande de détection de sous tension / surchauffe"
+msgstr "Commande de détection de sous-tension/surchauffe"
 
 #: src/octoprint/plugins/pi_support/templates/pi_support_settings.jinja2:32
 msgid ""
@@ -2093,19 +2091,19 @@ msgstr ""
 #: src/octoprint/plugins/pluginmanager/__init__.py:225
 msgid "Allows to enable, disable and uninstall installed plugins."
 msgstr ""
-"Autorise l'activation, la désactivation et la désinstallation  des plugins "
-"installés."
+"Autorise l'activation, la désactivation et la désinstallation d'extensions "
+"installées."
 
 #: src/octoprint/plugins/pluginmanager/__init__.py:234
 msgid ""
 "Allows to install new plugins. Includes the \"Manage plugins\" permission."
 msgstr ""
-"Permet d'installer de nouvelles extensions. Inclut l'autorisation \"Gérer "
-"les extensions\"."
+"Autorise l'installation de nouvelles extensions. Inclut l'autorisation "
+"\"Gérer les extensions\"."
 
 #: src/octoprint/plugins/pluginmanager/__init__.py:312
 msgid "Plugin Manager"
-msgstr "Gestionnaire des extensions"
+msgstr "Gestionnaire d'extensions"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:258
 msgid "There are no plugin notices. Great!"
@@ -2142,7 +2140,7 @@ msgstr "Installation de l'extension depuis une archive téléchargée..."
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1264
 #: src/octoprint/plugins/tracking/static/js/usage.js:92
 msgid "Something went wrong"
-msgstr "Quelque chose a mal tourné"
+msgstr "Houston, we've got a problem"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:450
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:673
@@ -2197,7 +2195,7 @@ msgstr "Installation de l'extension depuis %(url)s..."
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:815
 msgid "Reinstalling plugin..."
-msgstr "Réinstallation de l'extension..."
+msgstr "Réinstallation de l'extension…"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:817
 #, python-format
@@ -2206,7 +2204,7 @@ msgstr "Réinstallation de l'extension \"%(name)s\" depuis %(url)s..."
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:871
 msgid "Uninstalling plugin..."
-msgstr "Désinstallation de l'extension..."
+msgstr "Désinstallation de l'extension…"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:872
 #, python-format
@@ -2232,7 +2230,7 @@ msgstr "Désinstaller et nettoyer les données"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:927
 msgid "Cleaning up plugin data..."
-msgstr "Nettoyage des données de l'extension..."
+msgstr "Nettoyage des données de l'extension…"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:928
 #, python-format
@@ -2255,11 +2253,11 @@ msgstr "Conserver les données"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:959
 msgid "Cleanup data"
-msgstr "Données effacées"
+msgstr "Nettoyer les données"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:971
 msgid "Cleaning up all left over plugin data..."
-msgstr "Nettoyage de toutes les données de l'extension restantes..."
+msgstr "Nettoyage de toutes les données de l'extension restantes…"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:990
 msgid ""
@@ -2300,7 +2298,7 @@ msgstr "Journal de gestion des extensions"
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1172
 #, python-format
 msgid "%(count)d earlier actions..."
-msgstr "%(count)d actions précédentes..."
+msgstr "%(count)d actions précédentes…"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1174
 #, python-format
@@ -2365,7 +2363,7 @@ msgstr "Redémarrage en cours"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1257
 msgid "The server is now being restarted in the background"
-msgstr "Le serveur est maintenant redémarré en arrière plan"
+msgstr "Le serveur est maintenant redémarré en tâche de fond"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1267
 msgid ""
@@ -2406,7 +2404,7 @@ msgstr "En Liste Noire"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1409
 msgid "Disabled due to active safe mode"
-msgstr "Désactivé en raison du mode sans échec actif"
+msgstr "Désactivé en raison du mode sans échec en cours"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1411
 msgid "Enable Plugin"
@@ -2493,8 +2491,8 @@ msgstr ""
 "correctement\n"
 "    pour cette installation d'OctoPrint - consultez les journaux pour plus "
 "de détails et si nécessaire\n"
-"    configurez le manuellement. Aucune installation et désinstallation de "
-"paquets d'extension n'est\n"
+"    configurez le manuellement. Aucune installation et désinstallation "
+"d'extension n'est\n"
 "    possible tant que <code> pip </code> n'est pas disponible.\n"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:17
@@ -2505,10 +2503,9 @@ msgid ""
 "    enabled. Installation of plugin packages is disabled.\n"
 msgstr ""
 "\n"
-"    Le mode sans échec est actif. Toutes les extensions tierces sont "
+"    Le mode sans échec est en cours. Toutes les extensions tierces sont "
 "désactivées et ne\n"
-"    peuvent être activées. L'installation de paquets d'extension est "
-"désactivée.\n"
+"    peuvent être activées. L'installation d'extensions est désactivée.\n"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:24
 msgid ""
@@ -2644,7 +2641,7 @@ msgstr "Désactivé en raison du mode sans échec"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:95
 msgid "There are notices available regarding this plugin"
-msgstr "Il y a des annonces disponibles concernant cette extension"
+msgstr "Des annonces sont disponibles concernant cette extension"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:95
 msgid "This plugin is blacklisted"
@@ -2786,7 +2783,7 @@ msgstr "extensions affichées"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:283
 msgid "Sadly the repository is currently not available"
-msgstr "Oups, le dépôt n'est pas disponible actuellement"
+msgstr "Oups, le dépôt est indisponible actuellement"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:286
 msgid "Is your OctoPrint installation connected to the internet?"
@@ -3194,7 +3191,7 @@ msgid ""
 "OctoPrint since they might contain important information you need to know "
 "<strong>before</strong> upgrading."
 msgstr ""
-"Lisez bien toutes les notes de publication liées, en particulier celles pour "
+"Lisez bien toutes les notes de publication, en particulier celles pour "
 "OctoPrint car elles peuvent contenir des informations importantes que vous "
 "devez connaître <strong>avant</strong> la mise à niveau."
 
@@ -3624,7 +3621,7 @@ msgstr ""
 
 #: src/octoprint/plugins/softwareupdate/templates/snippets/plugins/softwareupdate/checkoutFolder.jinja2:2
 msgid "OctoPrint checkout folder"
-msgstr "Dossier de vérification d'OctoPrint"
+msgstr "Dossier d'OctoPrint"
 
 #: src/octoprint/plugins/softwareupdate/templates/snippets/plugins/softwareupdate/checkoutFolder.jinja2:5
 msgid "This needs to be set if you select commit based version tracking."
@@ -4295,7 +4292,7 @@ msgstr "moins d'une minute"
 
 #: src/octoprint/static/js/app/helpers.js:623
 msgid "YYYY-MM-DD HH:mm"
-msgstr "DD.MM.YYYY HH:mm"
+msgstr "DD-MM-YYYY HH:mm"
 
 #: src/octoprint/static/js/app/helpers.js:625
 msgid "YYYY-MM-DD HH:mm:ss"
