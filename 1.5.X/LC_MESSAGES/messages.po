@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OctoPrint 1.5.2.post0.dev0+ge46e8fa17\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
 "POT-Creation-Date: 2020-12-12 09:49+0000\n"
-"PO-Revision-Date: 2020-12-12 17:58+0100\n"
+"PO-Revision-Date: 2020-12-13 09:36+0100\n"
 "Last-Translator: Francis Poulizac <fpoulizac@gmail.com>\n"
 "Language: fr\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -1613,12 +1613,12 @@ msgstr "Filament"
 #: src/octoprint/static/js/app/viewmodels/temperature.js:157
 #: src/octoprint/static/js/app/viewmodels/temperature.js:377
 msgid "Tool"
-msgstr "Buse"
+msgstr "Outil"
 
 #: src/octoprint/plugins/gcodeviewer/static/js/gcodeviewer.js:709
 #: src/octoprint/static/js/app/viewmodels/files.js:969
 msgid "Estimated print time"
-msgstr "Durée d'impression estimée"
+msgstr "Durée estimée de l'impression"
 
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_settings.jinja2:2
 msgid "Maximum size for which the GCode Viewer autoloads the file for preview"
@@ -8321,9 +8321,9 @@ msgid ""
 "to a limitation of the communication protocol. There is no way to show the "
 "current setting."
 msgstr ""
-"La vitesse d'alimentation peut seulement être réglée, elle ne peut pas être "
-"lue à partir du micrologiciel en raison d'une limitation du protocole de "
-"communication. Il n'y a aucun moyen d'afficher le réglage actuel."
+"La vitesse d\\'alimentation peut seulement être réglée, elle ne peut pas "
+"être lue à partir du micrologiciel en raison d\\'une limitation du protocole "
+"de communication. Il n\\'y a aucun moyen d\\'afficher le réglage actuel."
 
 #: src/octoprint/templates/tabs/control.jinja2:104
 msgid "Extrude"
@@ -8358,8 +8358,8 @@ msgid ""
 "current setting."
 msgstr ""
 "Le débit peut seulement être réglé, il ne peut pas être lu à partir du "
-"micrologiciel en raison d'une limitation du protocole de communication. Il "
-"n'y a aucun moyen d'afficher le réglage actuel."
+"micrologiciel en raison d\\'une limitation du protocole de communication. Il "
+"n\\'y a aucun moyen d\\'afficher le réglage actuel."
 
 #: src/octoprint/templates/tabs/control.jinja2:134
 msgid "Motors off"
