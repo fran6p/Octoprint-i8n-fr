@@ -9,3 +9,5 @@ Pour la version 1.4.x d'Octoprint, utiliser le fichier Octoprint-i18n-fr_2020102
 
 Pour la version 1.5.2 d'Octoprint, utiliser le fichier Octoprint-i18n-fr_202012131200.zip (complet).
 
+Ne pas oublier après avoir téléversé le pack linguistique de redémarrer Octoprint afin que la langue française soit prise en compte ;-)  
+
