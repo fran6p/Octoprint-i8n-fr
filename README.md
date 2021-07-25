@@ -1,5 +1,5 @@
 # Octoprint-i8n-fr
- Traduction française d'Octoprint (mis à disposition sur le forum: (https://www.lesimprimantes3d.fr/forum/topic/5253-pack-fr/ "lesimprimantes3d.fr") )
+ Traduction française d'Octoprint ([lesimprimantes3d.fr] (https://www.lesimprimantes3d.fr/forum/topic/5253-pack-fr/))
 * version 1.4.X (la dernière étant la 1.4.2)
 * version 1.5.X (la dernière étant la 1.5.2)
 * version 1.6.X (actuellement au 20210725, la 1.6.1)
@@ -12,8 +12,8 @@ Pour la **version 1.5.2** d'Octoprint, utiliser le fichier **Octoprint-i18n-fr_2
 
 Pour la **version 1.6.1** d'Octoprint, utiliser le fichier **Octoprint-i18n-fr_202107251700.zip** (complet).
 
-**IMPORTANT:
-Ne pas oublier après avoir téléversé le pack linguistique de rafraichir la page ( CTRL + F5 ) ou de redémarrer Octoprint afin que la langue française soit prise en compte** ;-)  
+***IMPORTANT:
+Ne pas oublier après avoir téléversé le pack linguistique de rafraichir la page ( CTRL + F5 ) ou de redémarrer Octoprint afin que la langue française soit prise en compte*** ;-)  
 
 :-) 
 
