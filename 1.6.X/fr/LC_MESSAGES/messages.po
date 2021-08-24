@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OctoPrint 1.6.1\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
 "POT-Creation-Date: 2021-07-25 13:00+0100\n"
-"PO-Revision-Date: 2021-07-25 17:34+0200\n"
+"PO-Revision-Date: 2021-08-24 09:08+0200\n"
 "Last-Translator: Francis Poulizac <fpoulizac@gmail.com>\n"
 "Language: fr\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -2336,7 +2336,7 @@ msgstr "Versions affectées : toutes"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1577
 msgid "Read more..."
-msgstr "En savoir plus..."
+msgstr "Plus d'informations..."
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:3
 msgid ""
