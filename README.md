@@ -42,6 +42,8 @@ Pour la **version actuelle 1.7.3** d'Octoprint en attendant la **version 1.8.0**
 - Une fois la page rechargée (ou après un redémarrage normalement non nécessaire, on n'est pas sous Windows :smirk: )
   - L'interface d'Octoprint devrait être dans la langue de Molière. Exemple avec Paramètres > Apparence
   -  ![](Images/octo-apparence-fr.jpg)
+  -   ![](Images/octo-apparence-fr-2.jpg)
+
 
 # :smiley: 
 
