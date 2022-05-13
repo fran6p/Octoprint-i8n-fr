@@ -1,6 +1,7 @@
 # Octoprint-i8n-fr
 
  Traduction française d'Octoprint ([lesimprimantes3d.fr] (https://www.lesimprimantes3d.fr/forum/topic/5253-pack-fr/))
+ 
 * version 1.4.X (la dernière étant la 1.4.2)
 * version 1.5.X (la dernière étant la 1.5.2)
 * version 1.6.X (la dernière étant la 1.6.1)
@@ -18,9 +19,29 @@ Pour la **version 1.6.1** d'Octoprint, utiliser le fichier **Octoprint-i18n-fr_2
 
 Pour la **version actuelle 1.7.3** d'Octoprint en attendant la **version 1.8.0** (en RC actuellement), utiliser le fichier **Octoprint-i18n-fr_202205010001.zip** (complet).
 
+## En pratique
+
+- Télécharger la version du pack linguistique à installer en cliquant sur le fichier d'extension «.zip» puis clic sur le bouton «Download» :
+![](Images/i18n-download-pc.jpg)
+- Dans Octoprint, accéder aux paramêtres, section «Appearence»
+  - Clic sur le bouton «Manage» :
+  - ![](Images/octo-apparence-en-1.jpg)
+  - Clic sur le bouton «Browse» : 
+  - ![](Images/octo-apparence-en-2.jpg)
+  - La fenêtre de sélection de fichiers s'ouvre, se déplacer là où le fichier précédent a été téléchargé et valider ce choix :
+  ![](Images/octo-apparence-en-3.jpg)
+  - Valider le téléversement sur Octoprint en cliquant sur «Upload» :
+  - ![](Images/octo-apparence-en-4.jpg)
+  - Le pack de langue française doit apparaitre dans la liste :
+  - ![](Images/octo-apparence-en-5.jpg)
+
 ## IMPORTANT:
 
 > Ne pas oublier après avoir téléversé le pack linguistique de **rafraichir la page** ( CTRL + F5 ) ou de **redémarrer Octoprint** afin que la langue française soit prise en compte ;-)  
 
-:smiley: 
+- Une fois la page rechargée (ou après un redémarrage normalement non nécessaire, on n'est pas sous Windows :smirk: )
+  - L'interface d'Octoprint devrait être dans la langue de Molière. Exemple avec Paramètres > Apparence
+  -  ![](Images/octo-apparence-fr.jpg)
+
+# :smiley: 
 
