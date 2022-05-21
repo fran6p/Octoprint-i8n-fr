@@ -1,13 +1,11 @@
 # French translations for OctoPrint.
 # Copyright (C) 2022 The OctoPrint Project
 # This file is distributed under the same license as the OctoPrint project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: OctoPrint 1.8.0rc6.dev8+g8ca327669.dirty\n"
+"Project-Id-Version: OctoPrint 1.8.0\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
-"POT-Creation-Date: 2022-04-30 13:00+0100\n"
+"POT-Creation-Date: 2022-05-16 14:29+0200\n"
 "PO-Revision-Date: 2022-05-21 10:51+0200\n"
 "Last-Translator: Francis Poulizac <fpoulizac@gmail.com>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -15,7 +13,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.10.1\n"
 "X-Generator: Poedit 3.0.1\n"
 
@@ -24,8 +22,13 @@ msgid "Admin is allowed to do everything"
 msgstr "L'administrateur possède toutes les autorisations"
 
 #: src/octoprint/access/permissions.py:283
-msgid "Allows to gather basic status information, e.g. job progress, printer state, temperatures, ... Mandatory for the default UI to work"
-msgstr "Autorise le recueil des informations de base sur le statut, par exemplel'avancement du travail, l'état de l'imprimante, les températures, ... Obligatoire pour que l'interface utilisateur par défaut fonctionne"
+msgid ""
+"Allows to gather basic status information, e.g. job progress, printer "
+"state, temperatures, ... Mandatory for the default UI to work"
+msgstr ""
+"Permet de recueillir des informations de base sur le statut, exemple: "
+"avancement du travail, état de l'imprimante, températures, ... Obligatoire "
+"au bon fonctionnement de l'interface utilisateur"
 
 #: src/octoprint/access/permissions.py:294
 msgid "Allows to connect to and disconnect from a printer"
@@ -36,16 +39,32 @@ msgid "Allows to watch the webcam stream"
 msgstr "Autorise le visionnage du flux de la webcam"
 
 #: src/octoprint/access/permissions.py:308
-msgid "Allows to run system commands, e.g. restart OctoPrint, shutdown or reboot the system, and to retrieve system and usage information"
-msgstr "Autorise l'exécution des commandes système, par ex. redémarrer OctoPrint, arrêter ou redémarrer le système"
+msgid ""
+"Allows to run system commands, e.g. restart OctoPrint, shutdown or reboot"
+" the system, and to retrieve system and usage information"
+msgstr ""
+"Autorise l'exécution des commandes système, par ex. redémarrer OctoPrint, "
+"arrêter ou redémarrer le système"
 
 #: src/octoprint/access/permissions.py:318
-msgid "Allows to retrieve a list of all uploaded files and folders, including their metadata (e.g. date, file size, analysis results, ...)"
-msgstr "Autorise la récupération de la liste de tous les fichiers télé-chargés, y compris leurs métadonnées (par exemple date, taille du fichier, résultats d'analyse, ...)"
+msgid ""
+"Allows to retrieve a list of all uploaded files and folders, "
+"including their metadata (e.g. date, file size, analysis results, ...)"
+msgstr ""
+"Autorise la récupération de la liste de tous les fichiers télé-"
+"chargés, y compris leurs métadonnées (par exemple date, taille "
+"du fichier, résultats d'analyse, ...)"
 
 #: src/octoprint/access/permissions.py:327
-msgid "Allows users to upload new files, create new folders and copy existing ones. If the File Delete permission is also set, File Upload also allows moving files and folders."
-msgstr "Autorise les utilisateurs à télécharger de nouveaux fichiers, à créer de nouveaux dossiers et à copier ceux existants. Si l’autorisation de suppression de fichier est également définie, le téléchargement de fichier permet également de déplacer des fichiers et des dossiers."
+msgid ""
+"Allows users to upload new files, create new folders and copy existing "
+"ones. If the File Delete permission is also set, File Upload also allows "
+"moving files and folders."
+msgstr ""
+"Autorise les utilisateurs à télécharger de nouveaux fichiers, à créer de "
+"nouveaux dossiers et à copier ceux existants. Si l’autorisation de suppression "
+"de fichier est également définie, le téléchargement de fichier permet également "
+"de déplacer des fichiers et des dossiers."
 
 #: src/octoprint/access/permissions.py:337
 msgid "Allows users to download files. The GCODE viewer is affected by this as well."
