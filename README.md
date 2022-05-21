@@ -24,7 +24,7 @@ Pour la **version actuelle 1.8.0** d'Octoprint, utiliser le fichier **Octoprint-
 
 ## En pratique
 
-- Télécharger la version du pack linguistique à installer en cliquant sur le fichier d'extension «.zip» puis clic sur le bouton «Download» :
+- Télécharger la version du pack linguistique en fonction de la version d'Octoprint installée en cliquant sur le fichier d'extension «.zip» puis clic sur le bouton «Download» :
 ![](Images/i18n-download-pc.jpg)
 - Dans Octoprint, accéder aux paramêtres, section «Appearence»
   - Clic sur le bouton «Manage» :
