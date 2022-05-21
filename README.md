@@ -18,7 +18,7 @@ Pour la **version 1.5.2** d'Octoprint, utiliser le fichier **Octoprint-i18n-fr_2
 
 Pour la **version 1.6.1** d'Octoprint, utiliser le fichier **Octoprint-i18n-fr_202108240700.zip** (complet, fonctionne également avec la version en cours, 1.7.3, mais n'est pas complet :smirk: ).
 
-Pour la **version actuelle 1.7.3** d'Octoprint, utiliser le fichier **Octoprint-i18n-fr_202205010001.zip** (complet).
+Pour la **version 1.7.3** d'Octoprint, utiliser le fichier **Octoprint-i18n-fr_202205010001.zip** (complet).
 
 Pour la **version actuelle 1.8.0** d'Octoprint, utiliser le fichier **Octoprint-i18n-fr_202205211030.zip** (complet normalement)
 
