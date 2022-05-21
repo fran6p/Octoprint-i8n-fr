@@ -5,7 +5,8 @@
 * version 1.4.X (la dernière étant la 1.4.2)
 * version 1.5.X (la dernière étant la 1.5.2)
 * version 1.6.X (la dernière étant la 1.6.1)
-* version 1.7.X (actuellement au 20220501, la 1.7.3)
+* version 1.7.X (la dernière étant la 1.7.3)
+* version 1.8.X (actuellement au 20220521, la 1.8.0)
 
 Le fichier .zip est à téléverser sur l'Octoprint via Paramètres\Apparence -> Packs linguistiques [Gérer] (Settings>Appearence> Language Packs).
 
@@ -17,7 +18,9 @@ Pour la **version 1.5.2** d'Octoprint, utiliser le fichier **Octoprint-i18n-fr_2
 
 Pour la **version 1.6.1** d'Octoprint, utiliser le fichier **Octoprint-i18n-fr_202108240700.zip** (complet, fonctionne également avec la version en cours, 1.7.3, mais n'est pas complet :smirk: ).
 
-Pour la **version actuelle 1.7.3** d'Octoprint en attendant la **version 1.8.0** (en RC actuellement), utiliser le fichier **Octoprint-i18n-fr_202205010001.zip** (complet).
+Pour la **version actuelle 1.7.3** d'Octoprint, utiliser le fichier **Octoprint-i18n-fr_202205010001.zip** (complet).
+
+Pour la **version actuelle 1.8.0** d'Octoprint, utiliser le fichier **Octoprint-i18n-fr_202205211030.zip** (complet normalement)
 
 ## En pratique
 
