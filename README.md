@@ -20,7 +20,7 @@ Pour la **version 1.6.1** d'Octoprint, utiliser le fichier **Octoprint-i18n-fr_2
 
 Pour la **version 1.7.3** d'Octoprint, utiliser le fichier **Octoprint-i18n-fr_202205010001.zip** (complet).
 
-Pour la **version actuelle 1.8.0** d'Octoprint, utiliser le fichier **Octoprint-i18n-fr_202205211030.zip** (complet normalement)
+Pour la **version actuelle 1.8.0** d'Octoprint, utiliser le fichier **OctoPrint-i18n-fr_202205221530.zip** (complet mais les menus restent en anglais :confounded: :astonished: (*je continue d'investiguer sur le pourquoi du comment avant de remonter un «bug» sur le Github Octoprint*)
 
 ## En pratique
 
